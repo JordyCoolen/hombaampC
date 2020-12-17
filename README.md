@@ -75,4 +75,4 @@ https://doi.org/10.1101/2020.06.01.128843
 J.P.M. Coolen and E.P.M. den Drijver
 
 # license
-MIT license
+[MIT](https://choosealicense.com/licenses/mit/)
