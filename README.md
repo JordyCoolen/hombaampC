@@ -4,6 +4,59 @@ Homoplasy-based analysis on FOX resistant ESBL negative Escherichia coli.
 # note
 These scripts are the actual scripts used in the studie and are not polished.
 
+Homoplasy_ref_based.R
+  - extract regions
+  - MSA visualization
+  - Treespace (not used)
+  - HomoplasyFinder
+    - Homoplasy
+  - Homoplasy windows
+  - SNP to methylation correlation (not used)
+  - pyseer renaming and parsing
+  - compare results with pyseer
+  - homoplasy INDEL positions promotor and attenuator
+
+
+Calculate_Fisher_nt_trait.R
+  - mutation to trait
+  - CIRCOS plot
+  - INDEL promotor and attenuator and fisher exact
+  - 24 contingency table/ Fisher exact
+  - gubbins VCF file parse
+  - Table 1 piecharts
+  - combine all files (consistency index + fisher + FDR)
+
+Folder:
+Alternative_analysis
+Contains Rscripts only used during preliminary analysis and alternative analysis stategies.
+Code not used for obtaining the final results.
+
+# dependencies
+R packages:
+ape
+insect
+readxl
+msa
+homoplasyFinder
+ggplot2
+phangorn
+stringr
+VennDiagram
+reshape2
+RColorBrewer
+scales
+
+R packages optional:
+treespace
+phytools
+adegraphics
+evobiR
+ggpubr
+grid
+gridExtra
+seqinr
+
+
 # best practise
 See how the steps are performed and reproduce and reuse for your own study.
 
